@@ -1,0 +1,47 @@
+.start-survey-container {
+  background-color: #1e1e1e;
+  color: white;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.h222{
+  color: white !important;
+}
+.start-survey-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.start-survey-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.start-survey-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-survey-container button:hover {
+  background-color: #ddd;
+}

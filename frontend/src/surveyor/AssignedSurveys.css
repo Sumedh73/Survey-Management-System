@@ -1,0 +1,68 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Table Styles */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  font-size: 1rem;
+}
+
+/* Survey Data Preview */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Loading and Error States */
+.loading, .error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  padding: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.no-surveys {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 30px;
+}

@@ -1,0 +1,74 @@
+.create-surveyor-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.create-surveyor-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.create-surveyor-container p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.create-surveyor-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-surveyor-container input,
+.create-surveyor-container select {
+    margin: 10px 0;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border: 2px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.create-surveyor-container input:focus,
+.create-surveyor-container select:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+.create-surveyor-container button {
+    padding: 10px;
+    background: #fff;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.create-surveyor-container button:hover {
+    background: #ddd;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    .create-surveyor-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .create-surveyor-container input,
+    .create-surveyor-container select,
+    .create-surveyor-container button {
+        font-size: 14px;
+    }
+}

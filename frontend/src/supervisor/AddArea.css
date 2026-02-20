@@ -1,0 +1,66 @@
+.add-area-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 55px;
+    height: 90vh;
+    background-color: #000;
+}
+
+.add-area-card {
+    background-color: #1e1e1e;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.add-area-title {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.add-area-input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 16px;
+    transition: outline 0.3s;
+}
+
+.add-area-input:focus {
+    outline: 2px solid #4a90e2;
+    background-color: #2d2d2d;
+}
+
+.add-area-button {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-area-button:hover {
+    background-color: #e1e1e1;
+    transform: translateY(-1px);
+}
+
+.add-area-message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}

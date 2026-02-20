@@ -1,0 +1,19 @@
+.surveyor-profile {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.surveyor-profile .profile-tab {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.surveyor-profile .header2 {
+  color: yellow;
+  font-size: 24px;
+  text-align: center;
+}

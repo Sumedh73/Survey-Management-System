@@ -1,0 +1,63 @@
+.view-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #000; /* Pure black */
+    color: #fff; /* Pure white text */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border: 2px solid white; /* White border for visibility */
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    background: #000; /* Pure black */
+    color: white;
+    border: 2px solid white; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+select:hover {
+    background: white;
+    color: black;
+}
+
+.profile-card {
+    background: #000; /* Pure black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: left;
+    border: 2px solid white;
+}
+
+.profile-card h3 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.profile-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.profile-card p strong {
+    color: white;
+}
+
+.h22{
+    color: #fff;
+}

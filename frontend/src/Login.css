@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.show-hide {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+}
+
+/* Stylish Black Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: #222;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Second button variation */
+button:nth-of-type(2) {
+    background: black;
+    margin-top: 10px;
+}
+
+button:nth-of-type(2):hover {
+    background: #333;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.back-to-login {
+    margin-top: 10px;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.back-to-login:hover {
+    text-decoration: underline;
+}

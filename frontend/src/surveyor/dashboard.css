@@ -1,0 +1,93 @@
+.surveyor-dashboard {
+  display: flex;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.surveyor-dashboard .dashboard-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.surveyor-dashboard .sidebar {
+  width: 300px;
+  background: #1c1c1c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.surveyor-dashboard .dashboard-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.surveyor-dashboard .button-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.surveyor-dashboard .button-container a {
+  text-decoration: none;
+  color: #fff;
+  background: #444;
+  padding: 14px;
+  margin: 5px 0;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.surveyor-dashboard .button-container a:hover {
+  background: #555;
+}
+
+.surveyor-dashboard .content-area {
+  flex: 1;
+  padding: 20px;
+  background: #000;
+  color: white;
+}
+
+.surveyor-dashboard .top-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.surveyor-dashboard .top-bar span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.surveyor-dashboard .logout-btn {
+  background: white;
+  color: black;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.surveyor-dashboard .logout-btn:hover {
+  background: #ccc;
+}
